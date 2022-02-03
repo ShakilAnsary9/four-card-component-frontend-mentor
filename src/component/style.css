@@ -1,0 +1,77 @@
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Very-Dark-Blue: hsl(234, 12%, 34%);
+  --Grayish-Blue: hsl(229, 6%, 66%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.text-section {
+  color: var(--Very-Dark-Blue);
+  padding-top: 60px;
+  text-align: center;
+  width: 530px;
+}
+
+.text-section .lite {
+  text-align: left;
+  padding-left: 75px;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+.lite span {
+  font-weight: 600;
+}
+
+.text-section p {
+  font-size: 15px;
+  padding: 20px;
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.card-flex {
+  padding-top: 40px;
+}
+
+.card-holder {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 350px;
+  height: 250px;
+  background-color: var(--Very-Light-Gray);
+  border-radius: 8px;
+  border-top: 5px solid;
+  border-color: violet;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card h4 {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 24px;
+  color: var(--Very-Dark-Blue);
+}
+
+.card p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  font-size: 13px;
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+
+.icon {
+  padding-top: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: right;
+}
